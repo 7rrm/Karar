@@ -16,7 +16,7 @@ cowpy
 beautifulsoup4
 cfscrape
 cryptography
-moviepy
+moviepy==1.0.3
 pyquery
 tswift
 wikipedia
