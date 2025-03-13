@@ -75,6 +75,7 @@ vcsi
 Wand>=0.6.11
 wikipedia
 ujson
+ShazamAPI lyricsgenius
 git+https://github.com/buddhhu/img2html.git
 git+https://github.com/alexmercerind/youtube-search-python
 git+https://github.com/cinemagoer/cinemagoer
