@@ -67,6 +67,7 @@ speedtest-cli
 sqlalchemy==1.3.23
 sqlalchemy-json
 telegraph
+requests
 tgcrypto
 validators
 vcsi
