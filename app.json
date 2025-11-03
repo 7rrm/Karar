@@ -61,6 +61,12 @@
       "url": "https://github.com/jepthoniq/heroku-buildpack-ffmpeg-latest"
     },
     {
+      "url": "https://github.com/rahulps1000/heroku-buildpack-nodejs"
+    },
+    {
+      "url": "https://github.com/riganf/heroku-buildpack-p7zip"
+    },
+    {
       "url": "heroku/python"
     }
   ],
