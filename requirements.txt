@@ -71,7 +71,6 @@ tgcrypto
 validators
 vcsi
 wand
-FFmpeg
 ujson
 youtube_dl
 randomstuff.py
