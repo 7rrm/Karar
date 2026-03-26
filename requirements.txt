@@ -76,7 +76,8 @@ youtube_dl
 randomstuff.py
 youtube-search
 youtube-search-python==1.4.9
+yt-dlp
 git+https://github.com/buddhhu/img2html.git
 git+https://github.com/sandy1709/py-googletrans
 git+https://github.com/redaiq90/webcolors
-git+https://github.com/yt-dlp/yt-dlp
+
