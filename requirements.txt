@@ -22,7 +22,7 @@ tswift
 wikipedia
 fontTools
 emoji==1.7.0
-py-tgcalls==0.9.7
+py-tgcalls==2.2.11
 httpx[http2]
 fonttools
 geopy
