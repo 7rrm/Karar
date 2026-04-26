@@ -75,7 +75,7 @@ ujson
 youtube_dl
 randomstuff.py
 youtube-search
-youtube-search-python==1.4.9
+youtube-search-python
 yt-dlp
 yt-dlp-ejs
 git+https://github.com/buddhhu/img2html.git
