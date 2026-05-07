@@ -1,8 +1,9 @@
-FROM 7rrm/arras:slim-buster
+FROM python:3.10-slim-buster
 
-#clonning repo 
+# clonning repo 
 RUN git clone https://github.com/7rrm/arras.git /root/JoKeRUB
-#working directory 
+
+# working directory 
 WORKDIR /root/JoKeRUB
 
 # Install requirements
