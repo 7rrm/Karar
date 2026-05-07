@@ -1,24 +1,18 @@
-FROM python:3.10-slim-buster
+FROM python:3.10-slim-bookworm
 
-# تثبيت git والاعتماديات الأساسية
+# تثبيت الاعتماديات
 RUN apt-get update && apt-get install -y \
     git \
     curl \
     ffmpeg \
     && rm -rf /var/lib/apt/lists/*
 
-# clonning repo 
-RUN git clone https://github.com/7rrm/arras.git /root/JoKeRUB
+WORKDIR /app
 
-# working directory 
-WORKDIR /root/JoKeRUB
+COPY requirements.txt .
 
-# Install requirements
-RUN curl -sL https://deb.nodesource.com/setup_20.x | bash -
-RUN apt-get install -y nodejs
-RUN npm i -g npm
-RUN pip3 install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
-# ENV PATH="/home/JoKeRUB/bin:$PATH"  # علِّق هذا السطر - مساره خطأ
+COPY . .
 
-CMD ["python3","-m","JoKeRUB"]
+CMD ["python3", "-m", "JoKeRUB"]
