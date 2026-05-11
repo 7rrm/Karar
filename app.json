@@ -45,7 +45,7 @@
       "description": "جلسة حساب الميوزك - اذا تريد تشغيل الموسيقى بحساب مساعد اضف جلسته هنا (كود تيرمكس). اذا تركته فارغاً سيعتمد على حسابك الأساسي تلقائياً",
       "value": "",
       "required": false
-    }
+    },
     "GROQ_API_KEY": {
       "description": "مفتاح API الخاص بموقع Groq.ai - تحصل عليه من https://console.groq.com/keys",
       "value": "",
