@@ -1,45 +1,50 @@
 {
-  "name": "سورس الجوكر المجاني | Source AL-Joker Free",
-  "description": "اللهم صلِ على محمد وآل محمد",
-  "logo": "https://i.ibb.co/wcW2S4d/Ephoto360-com-163942f57f3305.jpg",
+  "name": "ARRAS",
+  "description": "〔 سـورس آراس 〕افضـل سـورسـات تليثـون يـوزربـوت العربيـة : › عربـي بالكـامل › تحديثـات متواصـله › فـارات تلقـائيـه بسهولـه〔 حصريـاً 〕- مطـور السـورس : اراس",
+  "logo": "https://graph.org/file/30fef265622f2e93d9bf8-5cbc8b18c2c371ae5b.jpg",
   "keywords": ["plugin", "modular", "productivity"],
   "repository": "https://github.com/7rrm/karar/",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
     "ALIVE_NAME": {
-      "description": "هنا ضع اسم التلجرام الخاص بك",
+      "description": "هنا ضـع اسـم التلجرام الخاص بـك",
       "value": ""
     },
     "APP_ID": {
-      "description": "هنا ضع الاب ايدي الخاص بك يتكون من 8 أرقام", 
-      "value": ""
+      "description": "كـود ايبي ايـدي〔 App id 〕لا تغيرهـا",
+      "value": "21623560"
     },
     "API_HASH": {
-      "description": "هنا ضع الايبي هاش الخاص بك",
-      "value": ""
+      "description": "كـود ايبي هـاش〔 Api hash 〕..لا تغيرهـا",
+      "value": "8c448c687d43262833a0ab100255fb43"
     },
     "ENV": {
-      "description": "لا تغير هذه القيمة",
+      "description": "اتـركهـا كمـا هـي .. لا تغيرهـا",
       "value": "ANYTHING"
     },
     "STRING_SESSION": {
-      "description": "هنا ضع كود التيرمكس أو كود البايروجرام الخاص بك",
+      "description": "كـــود تيـــرمكـــس - الكـود الكبيـر مـن بـوت تيرمكــس",
       "value": ""
     },
     "HEROKU_API_KEY": {
-      "description": "هنا ضع الايبي كي الخاص بحساب هيروكو من هذا الرابط https://dashboard.heroku.com/account",
+      "description": "كـــود مفتـــاح هيروكـــو - تروح ع الرابـط » https://dashboard.heroku.com/account  ع آخـر خانـه وتنسـخ الكـود لهنـا",
       "value": "",
       "required": false
     },
     "HEROKU_APP_NAME": {
-      "description": "اسم التطبيق أول مربع كتبته خلي هنا نفسه وحروف صغيرة",
+      "description": "اســـم التطبيـــق - نفـس اول مربـع بالقائمـة نسـخ لصـق حـروف انكلـش صغيـره",
       "value": "",
       "required": false
     },
     "TG_BOT_TOKEN": {
-      "description": "هنا ضع توكن بوتك الذي صنعته",
+      "description": "تـــوكـــن البـــوت - من بـوت فـاذر〔 @Botfather 〕..",
       "value": ""
+    },
+    "GROQ_API_KEY": {
+      "description": "مفتاح API الخاص بموقع Groq.ai - تحصل عليه من https://console.groq.com/keys",
+      "value": "",
+      "required": false
     },
     "TZ": {
       "description": "المنطقة الزمنية من القارة الخاصة بك وعاصمة بلدك يجب أن يكون أول حرف كبير",
