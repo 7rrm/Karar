@@ -74,6 +74,7 @@ vcsi
 wand
 ujson
 youtube_dl
+lxml_html_clean
 randomstuff.py
 youtube-search
 youtube-search-python
